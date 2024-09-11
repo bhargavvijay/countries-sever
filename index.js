@@ -7,7 +7,7 @@ const app = express();
 const PORT = 4001;
 
 app.use(cors({
-    origin: 'http://localhost:4200',
+    origin: 'https://master--sparkling-beignet-eb7f32.netlify.app/',
     methods: ['GET'],
     allowedHeaders: ['Content-Type']
 }));
